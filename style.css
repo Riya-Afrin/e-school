@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.container{
+    margin-bottom: 40px;
+}
+.banner-cont{
+ align-items: center;
+}
+.banner-cont h1 span{
+    color: #21B573;  
+    margin: 0 50px;                        
+}
+.banner-cont h6{
+    color: #FD511A;
+}
+.banner-cont p{
+    color: #6C6B6B;
+    width: 70%;
+}
+.banner{
+    background-color: #F0FFF0;
+}
+.navbar-nav{
+    color: black;
+    font-weight: bolder;
+}
+.logo{
+    height: 65px;
+}
+button{
+    background-color: #21B573;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #F0FFF0;
+    font-size: 15px;
+    font-weight: bolder;
+}
