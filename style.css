@@ -8,12 +8,12 @@ img{
 .container{
     margin-bottom: 40px;
 }
+
 .banner-cont{
- align-items: center;
+   margin-top: 10vh;
 }
 .banner-cont h1 span{
-    color: #21B573;  
-    margin: 0 50px;                        
+    color: #21B573;                      
 }
 .banner-cont h6{
     color: #FD511A;
@@ -24,6 +24,9 @@ img{
 }
 .banner{
     background-color: #F0FFF0;
+}
+.banner img{
+    margin-bottom: 5vh;
 }
 .navbar-nav{
     color: black;
@@ -40,4 +43,35 @@ button{
     color: #F0FFF0;
     font-size: 15px;
     font-weight: bolder;
+}
+/* -----------summary--------- */
+.summary{
+    display: flex; 
+}
+.summary-items{
+    border-radius: 10px;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin: 18px;
+    padding: 26px;
+    background-color: #F8FFFB;
+}
+.topic{
+    box-shadow: 5px 5px 10px lightslategrey;
+    background-color: #FFFF;
+}
+.summary-items img{
+   height: 86px;
+   width: 66px;
+   margin-left: 25px;
+}
+.summary-items h4{
+    color :#413960;
+    font-weight: 700;
+}
+
+.summary-items p{
+    color:#585859;
+    font-weight: 600;
 }
