@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 img{
     width: 100%;
@@ -74,4 +75,38 @@ button{
 .summary-items p{
     color:#585859;
     font-weight: 600;
+}
+/* ---------card----------- */
+.title{
+    color: #413960;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.card-img-top{
+    width: 351px;
+    height: 234px;
+    padding: 15px;
+}
+.card{
+    margin: auto;
+    border: none;
+    box-shadow: 5px 5px 15px lightslategrey;
+    border-radius: 20px;
+    height: 483px;
+    width: 350px;
+}
+.card-title{
+    color: #413960;
+    font-weight: 600;
+    font-size: 25px;
+}
+.card-text{
+    color: #585859;
+    font-weight: 400;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+    margin-bottom: 15px;
 }
